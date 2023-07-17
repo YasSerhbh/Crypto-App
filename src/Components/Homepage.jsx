@@ -41,6 +41,9 @@ function Homepage() {
                 <Title level={3} className='show-more'><Link to='/news'>Show More</Link></Title>
             </div>
             <News simplified />
+            <a href={process.env.PUBLIC_URL + '/CryptoVerse_V_1_3_0.apk'} download className='download'>
+            Download Our App
+            </a>
         </>
     )
 }

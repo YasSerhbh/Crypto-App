@@ -1,4 +1,3 @@
-import React from "react"
 
 export {default as Navbar} from "./Navbar"
 export {default as Homepage} from "./Homepage"

@@ -4,7 +4,7 @@ import { useGetNewsQuery } from '../services/newsApi';
 
 
 
-var {Title, Text} = Typography;
+var {Title, Text} = Typography;  // eslint-disable-next-line
 var {Option} = Select;
 
 function News({simplified}) {

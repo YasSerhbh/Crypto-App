@@ -15,7 +15,7 @@ function Cryptocurrencies({simplified}) {
     useEffect(() => {
         const filtered = cryptosList?.data?.coins.filter((e) => e.name.toLowerCase().includes(searchTerm.toLowerCase()))
         setCryptos(filtered)
-
+     // eslint-disable-next-line
     }, [searchTerm, cryptos])
     
     if(isFetching) { 
@@ -32,7 +32,7 @@ function Cryptocurrencies({simplified}) {
         return (
             <Col xs={24} sm={12} lg={6} className="crypto-card" key={currency.rank}>
                 <Link to={`/crypto/${currency.uuid}`}>
-                    <Card title={`#${currency.rank} ${currency.name}`} extra={<img className="crypto-image" src={currency.iconUrl} />} hoverable>
+                    <Card title={`#${currency.rank} ${currency.name}`} extra={<img className="crypto-image" alt="icon" src={currency.iconUrl} />} hoverable>
                         <p>Price: $ {millify(currency.price)}</p>
                         <p>Market Cap: $ {millify(currency.marketCap)}</p>
                         <p>Daily Change: {millify(currency.change)}%</p>
