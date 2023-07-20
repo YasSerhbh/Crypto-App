@@ -41,7 +41,7 @@ function Homepage() {
                 <Title level={3} className='show-more'><Link to='/news'>Show More</Link></Title>
             </div>
             <News simplified />
-            <a href={process.env.PUBLIC_URL + '/CryptoVerse_V_1_3_0.apk'} download className='download'>
+            <a href={"https://drive.google.com/uc?export=download&id=1HJCMuvZJxFJnfBumaTVgM1TrTgbj22pR"} download target='_blank' rel="noreferrer" className='download'>
             Download Our App
             </a>
         </>
