@@ -7,6 +7,7 @@ import {CryptoCurrencies, News} from '../Components';
 
 var {Title} = Typography;
 
+
 function Homepage() {
 
     var {data , isFetching} = useGetCryptosQuery(10)
