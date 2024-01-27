@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.c79e74bc.css",
-    "main.js": "/static/js/main.e8b1dd2d.js",
+    "main.js": "/static/js/main.310778f8.js",
     "static/media/2472_R0lVIE5JQyA1MzItMTI.jpg": "/static/media/2472_R0lVIE5JQyA1MzItMTI.37139be3973d7121dcdb.jpg",
     "static/media/cryptocurrency.png": "/static/media/cryptocurrency.1548aced3f0605895bac.png",
     "index.html": "/index.html",
     "main.c79e74bc.css.map": "/static/css/main.c79e74bc.css.map",
-    "main.e8b1dd2d.js.map": "/static/js/main.e8b1dd2d.js.map"
+    "main.310778f8.js.map": "/static/js/main.310778f8.js.map"
   },
   "entrypoints": [
     "static/css/main.c79e74bc.css",
-    "static/js/main.e8b1dd2d.js"
+    "static/js/main.310778f8.js"
   ]
 }
