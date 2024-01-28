@@ -42,8 +42,8 @@ function Homepage() {
                 <Title level={3} className='show-more'><Link to='/news'>Show More</Link></Title>
             </div>
             <News simplified />
-            <a href={"https://drive.google.com/uc?export=download&id=1HJCMuvZJxFJnfBumaTVgM1TrTgbj22pR"} download target='_blank' rel="noreferrer" className='download'>
-            Download Our App
+            <a href={"https://drive.google.com/uc?export=download&id=1610KFltSgJsyju52Y515SIAsC2gJssgN"} download target='_blank' rel="noreferrer" className='download'>
+            Download Our App (Updated)
             </a>
         </>
     )
